@@ -1,0 +1,9 @@
+# Log started 2019-11-10 08:54
+# Record of session commands.  Please note that this will
+# likely require editing if it is to be run as a script.
+open \
+  "D:\Codes\Data-Science\Super Data Science\Part 2 - Modelling\Section 3 - Multiple Linear Regression\P12-50-Startups.csv"
+# model 1
+ols Profit 0 RDSpend
+# model 2
+ols Profit 0 RDSpend MarketingSpend

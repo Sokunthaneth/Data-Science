@@ -1,0 +1,13 @@
+# Log started 2019-11-07 20:07
+# Record of session commands.  Please note that this will
+# likely require editing if it is to be run as a script.
+open \
+  "D:\Codes\Data-Science\Super Data Science\Part 2 - Modelling\Section 2 - Simple Linear Regression\P12-SalaryData.csv"
+summary YearsExperience --simple
+summary YearsExperience Salary --simple
+# model 1
+ols YearsExperience 0
+# model 2
+ols Salary 0 YearsExperience
+fcast 1 30 --static
+fcast 1 30 --static
